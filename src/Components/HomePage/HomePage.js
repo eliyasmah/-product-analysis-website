@@ -28,6 +28,9 @@ const HomePage = () => {
                         ></HomeReviews>)
                     }
                 </div>
+                <div className='m-10 text-center'>
+                    <button className='text-xl bg-red-500 text-white py-3 px-10 rounded-md '>See All Reviews</button>
+                </div>
             </div>
         </div>
     );
