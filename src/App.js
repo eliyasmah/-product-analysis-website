@@ -4,9 +4,9 @@ import './App.css';
 import Blogs from './Components/Blogs/Blogs';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Header from './Components/Header/Header';
+import HomePage from './Components/HomePage/HomePage';
 import NotFound from './Components/NotFound/NotFound';
-import HomePage from './HomePage/HomePage';
-import Reviews from './Reviews/Reviews';
+import Reviews from './Components/Reviews/Reviews';
 
 function App() {
 
@@ -14,9 +14,8 @@ function App() {
     <div className="App">
       <Header></Header>
       <Routes>
-        <Route path="/" element={<HomePage></HomePage>}>
-        </Route>
-        <Route path='/review' element={<Reviews></Reviews>}></Route>
+        <Route path="/" element={<HomePage></HomePage>}></Route>
+        <Route path='reviews' element={<Reviews></Reviews>}></Route>
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/*' element={<NotFound></NotFound>}></Route>

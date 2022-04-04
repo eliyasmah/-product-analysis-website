@@ -1,38 +1,43 @@
 [
     {
-        "id": "111",
+        "_id": "111",
         "name": "Kamal Pasha",
-        "Rating": "4.5",
-        "img": "https://img.freepik.com/free-photo/business-people-sturtup_233298-800.jpg?w=900"
+        "review": "I have had this laptop only a day, but so far I think it is super. It replaces a 4 year old XPS 13. The Gram is light years ahead of it in terms of speed. No comparison. I love the fingerprint reader also.",
+        "rating": "4.5",
+        "img": "https://img.freepik.com/free-photo/handsome-young-man-with-new-stylish-haircut_176420-19637.jpg?t=st=1649103522~exp=1649104122~hmac=22dc706ad94e783ab30e4b07f4b91748a814b6c361b5e2b87703941f14f52ce0&w=740"
     },
     {
-        "id": "112",
+        "_id": "112",
         "name": "Sumi Aktar",
-        "Rating": "4",
-        "img": "https://img.freepik.com/free-photo/young-woman-doing-remote-work_233298-906.jpg?w=740"
+        "review": "This is a great Chromebook for a middle to highschooler. It has a real long battery life charges quickly, and maintains a strong wireless signal. The touchscreen is very responsive and we haven’t had any problems with it at all. It has a very comfortable keyboard.",
+        "rating": "4",
+        "img": "https://img.freepik.com/free-photo/beauty-fashion-concept-carefree-beautiful-girl-with-curly-hair-naked-shoulders-smiling_176420-20176.jpg?t=st=1649103708~exp=1649104308~hmac=0b061285b580d0f0cc4e7787a72a37cb651fb7263ed8d320bba223eb2fd30bf1&w=740"
     },
     {
-        "id": "113",
+        "_id": "113",
         "name": "Sokina Bibi",
-        "Rating": "5",
+        "review": "I really like this model because it’s super-light and durable. It has very long battery life so I’m taking this laptop to every where. Definitely recommend to everyone",
+        "rating": "5",
         "img": "https://img.freepik.com/free-photo/student-studying-using-laptop-computer-online-education-beautiful-woman-freelancer-writes-notes-planning-working-project-working-from-home_207258-299.jpg?w=740"
     },
     {
-        "id": "114",
+        "_id": "114",
         "name": "Shakib Khan",
-        "Rating": "4.5",
-        "img": "https://img.freepik.com/free-photo/handsome-pensive-businessman-using-laptop-computer-searching-online-working-from-home_207258-784.jpg?w=740"
+        "rating": "4.5",
+        "img": "https://img.freepik.com/free-photo/red-haired-serious-young-man-blogger-looks-confidently_273609-16730.jpg?t=st=1649103522~exp=1649104122~hmac=eb7671eb33cdbfeab9104f072a171db38f4b303c2a246b1e0bbcc80d721ae9e7&w=740"
     },
     {
-        "id": "115",
+        "_id": "115",
         "name": "Salman Khan",
-        "Rating": "5",
+        "review": "I love this laptop. It is super light. It fits in 12.8 inch case. It is really small. The display is superb and the processor is like a rocket",
+        "rating": "5",
         "img": "https://img.freepik.com/free-photo/young-blackhaired-man-demonstrating-something-bright-laptop_231208-2322.jpg?t=st=1649020220~exp=1649020820~hmac=c5007a1befb913851c646ecd9a0d2f1c46eb85ea65a6a82141f17166b9ed2bcb&w=740"
     },
     {
-        "id": "116",
+        "_id": "116",
         "name": "Kalimulla Ahmed",
-        "Rating": "4",
-        "img": "https://img.freepik.com/free-photo/afro-american-businessman-classic-suit_85574-6304.jpg?w=740"
+        "review": "I bought mine from Micro Center. It's a great machine and I enjoyed it, until the screen frequently went black. And last night it bit the bucket. It didn't turn back on. This could just be a simple PC tech 1-2-3 fixit situation, but with the money I spent I am returning it.",
+        "rating": "4",
+        "img": "https://img.freepik.com/free-photo/energetic-guy-listens-music-online-sings-squints-face-moves-with-rhythm-song-uses-wireless-headphones-dressed-casual-blue-t-shirt-enjoys-new-playlist-beige-wall_273609-53901.jpg?w=740"
     }
 ]

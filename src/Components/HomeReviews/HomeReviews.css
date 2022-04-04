@@ -1,0 +1,12 @@
+.home-reviews {
+    height: 450px;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.home-reviews-btn {
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+}
