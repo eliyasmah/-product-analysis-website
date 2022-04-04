@@ -51,6 +51,7 @@ const Dashboard = () => {
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
+                    <Legend />
                 </LineChart>
             </div>
             <div>
@@ -59,6 +60,7 @@ const Dashboard = () => {
                     <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
+                    <Legend />
                     <Bar dataKey="investment" fill="#8884d8" />
                     <Bar dataKey="revenue" fill="#82ca9d" />
                     <Bar dataKey={'sell'} fill="#8774d3"></Bar>
