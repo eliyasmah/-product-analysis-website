@@ -41,12 +41,11 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='md:flex justify-center gap-10 my-24 items-center'>
+        <div className='md:grid grid-cols-2 justify-center gap-4 my-24 md:mx-24'>
             <div>
-                <LineChart width={550} height={350} data={data}>
+                <p className='text-xl text-blue-500 font-bold text-center'>MONTH WISE SELL</p>
+                <LineChart width={450} height={350} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
-                    <Line dataKey={'investment'} stroke="#8884d8" ></Line>
-                    <Line dataKey={'revenue'} stroke="#82ca9d"></Line>
                     <Line dataKey={'sell'}></Line>
                     <XAxis dataKey="month" />
                     <YAxis />
@@ -55,6 +54,7 @@ const Dashboard = () => {
                 </LineChart>
             </div>
             <div>
+                <p className='text-xl text-blue-500 font-bold text-center'>INVESTMENT vs REVENUE</p>
                 <BarChart width={550} height={350} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
@@ -63,7 +63,6 @@ const Dashboard = () => {
                     <Legend />
                     <Bar dataKey="investment" fill="#8884d8" />
                     <Bar dataKey="revenue" fill="#82ca9d" />
-                    <Bar dataKey={'sell'} fill="#8774d3"></Bar>
                 </BarChart>
             </div>
         </div>
