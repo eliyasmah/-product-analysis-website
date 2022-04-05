@@ -8,7 +8,7 @@ const Carts = (props) => {
             <img className='h-24 w-24 rounded-full m-auto' src={img} alt=" " />
             <h1 className='text-xl text-center py-3 text-slate-600'>{name}</h1>
             <p>{review}</p>
-            <button className='bg-slate-700 py-3 rounded-md text-white home-reviews-btn'>Rating: {rating}</button>
+            <p className='bg-slate-500 text-center py-3 rounded-md text-white home-reviews-rating'>Rating: {rating}</p>
         </div>
     );
 };

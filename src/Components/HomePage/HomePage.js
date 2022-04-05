@@ -20,7 +20,7 @@ const HomePage = () => {
                 </div>
             </div>
             <div>
-                <h1 className='text-5xl text-center'>Customer Review</h1>
+                <h1 className='text-5xl text-center'>Customer Reviews</h1>
                 <div className='md:grid grid-cols-3 gap-10 mx-20 mt-16'>
                     {
                         userData.slice(0, 3).map(data => <HomeReviews
@@ -29,8 +29,8 @@ const HomePage = () => {
                         ></HomeReviews>)
                     }
                 </div>
-                <div className='m-10 text-center'>
-                    <CustomLink to="/reviews" className='text-xl bg-red-500 text-white py-3 px-10 rounded-md '>See All Reviews</CustomLink>
+                <div className='mt-10 mb-20 text-center'>
+                    <CustomLink to="/reviews" ><button className='text-xl bg-slate-500 text-white py-3 px-10 rounded-md '>See All Reviews</button> </CustomLink>
                 </div>
             </div>
         </div>
