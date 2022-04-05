@@ -1,5 +1,6 @@
 import React from 'react';
 import useData from '../../hooks/useData';
+import CustomLink from '../CustomLink/CustomLink';
 import HomeReviews from '../HomeReviews/HomeReviews';
 
 
@@ -29,7 +30,7 @@ const HomePage = () => {
                     }
                 </div>
                 <div className='m-10 text-center'>
-                    <button className='text-xl bg-red-500 text-white py-3 px-10 rounded-md '>See All Reviews</button>
+                    <CustomLink to="/reviews" className='text-xl bg-red-500 text-white py-3 px-10 rounded-md '>See All Reviews</CustomLink>
                 </div>
             </div>
         </div>
