@@ -1,6 +1,6 @@
 # laptop Bazar
 
- https://ornate-paprenjak-a934dd.netlify.app/
+ https://quiet-chimera-5a2bed.netlify.app/
 
 ## Project Work
 *Home page\
